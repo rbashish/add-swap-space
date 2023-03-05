@@ -11,9 +11,6 @@ A Python package to add swap space to a Linux system
 ![PyPI - License](https://img.shields.io/pypi/l/add-swap-space?style=plastic)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/add-swap-space?color=orange&label=PyPI%20downloads&style=plastic)
 
-### 
-#### 
-
 
 Description
 -----
@@ -27,11 +24,19 @@ Download & Install
 pip install add-swap-space
 ```
 
-`Note:` If pip is unrecognized try pip3 instead. Report any issue at [issue page](https://github.com/rbashish/add-swap-space/issues)
+`Note:` If pip is unrecognized try pip3 instead. 
 
 Usage
 ----
 ```
-sudo python3 -m add-swap-space
+sudo python3 -m add_swap_space
 ```
-`Note:` Make sure you have pip install under root user.
+`Note:` Make sure you have pip install under root user as updating /etc/fstab requires root permission.
+
+Screenshot
+----
+![pypi-add-swap-space.png](https://github.com/rbashish/add-swap-space/blob/main/image/pypi-add-swap-space.png)
+
+Feedback/Issue
+----
+Have a feedback, feature request, known bug, please report it at this [issue page](https://github.com/rbashish/add-swap-space/issues)
