@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "add-swap-space"
+version = "1.1.0"
+description = "A Python package to add swap space to a Linux system"
+authors = ["RB ASHISH <dev@rbashish.tech>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "add_swap_space"}]
+classifiers = [
+    "Programming Language :: Python :: 3.6",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Intended Audience :: Information Technology",
+    "Topic :: System :: Installation/Setup"
+]
+keywords = ["swap", "add swap", "swap space", "linux swap", "swap memory"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+click = "^8.1.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.urls]
+homepage = "https://rbashish.tech"
+repository = "https://github.com/rbashish/add-swap-space"
+issues = "https://github.com/rbashish/add-swap-space/issues"
+changelog = "https://github.com/rbashish/add-swap-space/blob/main/CHANGELOG.md"

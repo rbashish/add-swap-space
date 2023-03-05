@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/add_swap_space/__init__.py
+src/add_swap_space/__main__.py
+src/add_swap_space/add_swap_space.py
+src/add_swap_space.egg-info/PKG-INFO
+src/add_swap_space.egg-info/SOURCES.txt
+src/add_swap_space.egg-info/dependency_links.txt
+src/add_swap_space.egg-info/entry_points.txt
+src/add_swap_space.egg-info/requires.txt
+src/add_swap_space.egg-info/top_level.txt

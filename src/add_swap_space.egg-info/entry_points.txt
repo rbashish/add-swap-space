@@ -1,0 +1,2 @@
+[console_scripts]
+add-swap-space = add_swap_space:main
